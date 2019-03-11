@@ -47,5 +47,34 @@
     margin: 0 auto;
     background: white;
     position: relative;
-    bottom: 100%;
+    bottom: 99%;
    }
+
+   .person{
+     height: 20%;
+     background: transparent;
+     text-align: center;
+   }
+
+   .summary{
+    height: 40%;
+    background: transparent;
+    
+  }
+  .skills{
+    height: 40%;
+    background:transparent;
+  }
+
+  hr{
+    position: relative;
+    border: none;
+    border-top: 1px solid rgb(243, 220, 220);
+    margin: 0 auto;
+    width: 80%;
+    top: 100%;
+  }
+  a{
+    text-decoration: none;
+  color:black;
+}
