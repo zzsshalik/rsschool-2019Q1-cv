@@ -1,7 +1,6 @@
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
-
    html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
    body{line-height:1}
    article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
@@ -16,12 +15,9 @@
    hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
    input,select{vertical-align:middle}
    li{list-style:none}
-   
-   
-   /* =============================================================================
+    /* =============================================================================
       My CSS
       ========================================================================== */
-   
    /* ---- base ---- */
    @font-face {
     font-family: Lato; 
@@ -32,89 +28,87 @@
     src: url(../assets/fonts/MavenPro-Regular.ttf); 
    }
 
+html,body{ 
+  margin: 0 auto;
+  width:100%;
+  height:100%;
+  min-height: 600px;
+  background:white;
+  z-index: 1;    
+}
 
+#particles-js{
+  width: 100%;
+  height: 99%;
+  background-color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 
-   html,body{ 
-       width:100%;
-       height:100%;
-       min-height: 600px;
-       background:white;
-       z-index: 1;
-       margin: 0 auto;
-       
-   }
-   #particles-js{
-     width: 100%;
-     height: 99%;
-     background-color: transparent;
-     background-size: cover;
-     background-position: 50% 50%;
-     background-repeat: no-repeat;
-   }
+main{
+  position: relative;
+  bottom: 99%;
+  margin: 0 auto;
+  width: 1024px;
+  height: 100%;
+  background: white; 
+}
 
-   main{
-    width: 1024px;
-    height: 100%;
-    margin: 0 auto;
-    background: white;
-    position: relative;
-    bottom: 99%;
-   }
-
-   .person{
-     height: 30%;
-     background: transparent;
-     text-align: center;
-     display: flex;
-   }
-    .person-information{
-      width: 50%;
-      margin: auto;
-    }
-    .photo{
-      height: auto;
-      width: 12%;
-      margin: auto;
-      margin-left: -15%;
-    }
-.summary{
+.person{
   height: 30%;
   background: transparent;
   text-align: center;
-  }
-  .inner-summary{
-    padding: 2%;
+  display: flex;
+}
+.person-information{
+  margin: auto;
+  width: 50%; 
+}
+
+.photo{
+  margin: auto;
+  margin-left: -15%;
+  height: auto;
+  width: 12%;  
+}
+
+.summary{
+  height: 30%;
+  text-align: center;
+  background: transparent;
   }
 
-  .my-skills{
-    height: 40%;
-    background:transparent;
-    display:flex;
-  }
+.inner-summary{
+  padding: 2%;
+}
 
+.my-skills{
+  height: 40%;
+  background:transparent;
+  display:flex;
+}
 
-  .first-line{
-    position: relative;
-    border: none;
-    border-top: 1px solid rgb(243, 220, 220);
-    margin: 0 auto;
-    width: 80%;
-
-  }
+.first-line{
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  border: none;
+  border-top: 1px solid rgb(243, 220, 220);
+}
 
 .second-line{
   position: relative;
-    border: none;
-    border-top: 1px solid rgb(243, 220, 220);
-    margin: 0 auto;
-    width: 80%;
-    top: 99%;
+  margin: 0 auto;
+  border: none;
+  width: 80%;
+  top: 99%;
+  border-top: 1px solid rgb(243, 220, 220);  
 }
 
-
-  a{
-    text-decoration: none;
-    color:rgba(221, 61, 61, 0.61);
+a{
+  ext-decoration: none;
+  color:rgba(221, 61, 61, 0.61);
 }
 .my-skills div{
   width: 33%;
