@@ -37,6 +37,7 @@
    html,body{ 
        width:100%;
        height:100%;
+       min-height: 600px;
        background:white;
        z-index: 1;
        margin: 0 auto;
@@ -61,30 +62,56 @@
    }
 
    .person{
-     height: 20%;
+     height: 30%;
      background: transparent;
      text-align: center;
+     display: flex;
    }
-
-   .summary{
-    height: 40%;
-    background: transparent;
-    text-align: center;
+    .person-information{
+      width: 50%;
+      margin: auto;
+    }
+    .photo{
+      height: auto;
+      width: 12%;
+      margin: auto;
+      margin-left: -15%;
+    }
+.summary{
+  height: 30%;
+  background: transparent;
+  text-align: center;
   }
+  .inner-summary{
+    padding: 2%;
+  }
+
   .my-skills{
     height: 40%;
     background:transparent;
     display:flex;
   }
 
-  hr{
+
+  .first-line{
     position: relative;
     border: none;
     border-top: 1px solid rgb(243, 220, 220);
     margin: 0 auto;
     width: 80%;
-    top: 100%;
+
   }
+
+.second-line{
+  position: relative;
+    border: none;
+    border-top: 1px solid rgb(243, 220, 220);
+    margin: 0 auto;
+    width: 80%;
+    top: 99%;
+}
+
+
   a{
     text-decoration: none;
     color:rgba(221, 61, 61, 0.61);
@@ -97,6 +124,7 @@
 .my-skills:nth-child(2){
   border-left: 1px solid rgb(243, 220, 220);
 }
+
 main{
   font-family: Maven;
 }
