@@ -36,6 +36,9 @@ html,body{
   background:white;
   z-index: 1;    
 }
+main{
+  opacity: 0.9;
+}
 
 #particles-js{
   width: 100%;
@@ -124,4 +127,9 @@ main{
 }
 b{
   font-family: Lato;
+}
+.examples-container{
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-flow: column;
 }
